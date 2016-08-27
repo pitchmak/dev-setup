@@ -152,6 +152,7 @@ brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" macdown
+brew cask install --appdir="/Applications" sequel-pro
 
 # Misc casks
 brew cask install --appdir="/Applications" google-chrome
@@ -160,7 +161,7 @@ brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" evernote
-brew cask install --appdir="/Applications" 1password
+#brew cask install --appdir="/Applications" 1password
 #brew cask install --appdir="/Applications" gimp
 #brew cask install --appdir="/Applications" inkscape
 
@@ -176,6 +177,9 @@ brew install boot2docker
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
+
+# Install typeface for code; https://github.com/chrissimpkins/Hack
+brew cask install caskroom/fonts/font-hack
 
 # Remove outdated versions from the cellar.
 brew cleanup
