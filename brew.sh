@@ -166,6 +166,7 @@ brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" evernote
+brew cask install --appdir="/Applications" wwdc
 brew cask install --appdir="/Applications" lantern
 brew cask install --appdir="/Applications" keepingyouawake
 #brew cask install --appdir="/Applications" 1password
