@@ -155,7 +155,7 @@ brew cask install --appdir="/Applications" macdown
 brew cask install --appdir="/Applications" cocoapods-app
 brew cask install --appdir="/Applications" postman
 brew cask install --appdir="/Applications" sequel-pro
-brew cask install --appdir="/Applications" sourcetree
+brew cask install --appdir="/Applications" gitkraken
 
 # Misc casks
 brew cask install --appdir="/Applications" google-chrome
